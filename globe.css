@@ -1,0 +1,26 @@
+.earth{
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 9vh;
+    width: 60vh;
+    /* padding: 5vh; */
+    height: 60vh;
+    background-image: url("images/globe.png");
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2PX #000 inset, 0 0 20px 2 #000;
+    animation: spin 30s linear alternate infinite;
+
+}
+
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.earth:hover{
+    cursor: pointer;
+}

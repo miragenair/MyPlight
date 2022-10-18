@@ -1,0 +1,71 @@
+nav{
+    transition: all 0.5s;
+    z-index: 10;
+}
+
+.header{
+    position: fixed;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    color: #FFD301;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 101%;
+    height: 16vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 5;
+}
+
+.header-alt{
+    position: fixed;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    color:#008094;
+    background-color: #d6edf0;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 101%;
+    height: 16vh;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.center{
+    display: flex;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.things{
+    /* border: 2px solid blue; */
+    margin: 1vh;
+    padding : 2vh;
+    /* border: 2px solid white; */
+}
+.header .things:hover{
+    color: #FFF684;
+    cursor: pointer;
+}
+
+.header-alt .things:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.main{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 101%;
+    margin-top: -1vh;
+}

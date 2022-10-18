@@ -1,0 +1,112 @@
+.backdrop{
+    width: 100%;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    z-index: 1;
+    /* padding-bottom: 6vh; */
+    /* padding-top: 6vh; */
+}
+
+.image{
+    /* position: fixed; */
+    width: 101%;
+    object-fit: contain;
+    margin-left: -8px;
+    margin-top: 15vh;
+    
+
+}
+
+.main{
+    z-index: 1;
+    position: relative;
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    margin-top: 10vh;
+    margin-left: -8px;
+    /* width: 50%; */
+    flex-direction: column;
+    /* background-color: rgb(255, 255, 255); */
+
+
+}
+
+.problems{
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid black; */
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    border-radius: 2vh;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    /* background-color: #d6edf0;
+    background-image: linear-gradient(160deg, #d6edf0 0%, #87dddd 100%); */
+    background-color: #94c8d6;
+    background-image: linear-gradient(135deg, #94c8d6 30%, #3278a5 98%);
+
+
+}
+
+.title{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 3vh;
+    height: auto;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    background-color: #fffced;
+    background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%);
+
+    /* margin: 5vh 0vh; */
+    padding: 3vh;
+    /* margin-top: 10vh; */
+    margin-bottom: 0%;
+    text-align: inherit;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6vh;
+    color: #FFD301;
+}
+
+.bottom{
+    text-align: center;
+    font-size: 3vh;
+    height: auto;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    background-color: #fffced;
+    background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%);
+    height: 5vh;
+    /* margin: 5vh 0vh; */
+    /* padding: 3vh; */
+    /* margin-bottom: 0%; */
+    text-align: center;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-size: 6vh; */
+    color: #FFD301;
+    /* margin-bottom: 5vh; */
+}
+
+.content{
+    padding-top: 5vh;
+    padding: 3vh;
+}
+
+.blank{
+    height: 50vh;
+}
+
+#darkpuzzle{
+    padding-bottom: 10vh;
+}
+
+.footer{
+    /* border: 2px solid black; */
+    padding: 30vh;
+    background-color: #eef6f8;
+    color: #85a9b4;
+    text-align: center;
+}
