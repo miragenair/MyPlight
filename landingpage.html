@@ -16,25 +16,36 @@
 <body>
     <nav class="header" id="myP">
         <ul class="center">
-            <span class="things">Home</span>
+            <span class="things" id="selected">Home</span>
             <span class="things">Explore</span>
             <span class="things">Profile</span>
         </ul>
     </nav>
     <div class="backdrop">
-        <img class="image" src="images/MyPlightFinal.jpg" alt="">
+        <img class="image" src="images/title(myplight).jpg" alt="">
     </div>
     
         <div class="main">
+            <!-- <img src="images/mainbg.png" alt=""> -->
             <div class="problems">
                 <div class="title">
                     This Is The No 1 Problem In The World
+                    <div class="hash">
+                        #science
+                    </div>
+                    <div class="profileinfo">
+                        <img class="profilephoto" src="images/erennnn.jpg" alt="">
+                        <span class="profilename">Eren Jaeger</span>
+                    </div>
                 </div>
                 <div class="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat explicabo saepe rerum! Est nam modi ex illum earum dolorum, expedita nulla sint molestias numquam dolorem consequatur totam eveniet fuga sunt, sequi natus hic officia praesentium itaque. Blanditiis consequuntur earum animi, molestiae minima quaerat aliquam ut corporis quibusdam iure placeat optio sit atque voluptas fuga quod corrupti quam! Quidem a tempora consequatur placeat. Reprehenderit debitis illum cumque fugiat aperiam exercitationem corporis illo, impedit accusamus! Nam facere nulla architecto est accusamus asperiores, debitis iure autem sunt consequatur ut mollitia sequi quos sit suscipit aliquid officia labore, eum optio delectus modi quisquam?
                 </div>
                 <div class="bottom">
-                    this is the bottom
+                    <ul class="like"></ul>
+                    <ul class="dislike"></ul>
+                    <ul class="comment"></ul>
+                    <ul class="share"></ul>
                 </div>
             </div>
             <div class="backdrop">
@@ -44,27 +55,50 @@
             <div class="problems">
                 <div class="title">
                     This Is The No 1 Problem In The World
+                    <div class="hash">
+                        #science
+                    </div>
+                    <div class="profileinfo">
+                        <img class="profilephoto" src="images/erennnn.jpg" alt="">
+                        <span class="profilename">Eren Jaeger</span>
+                    </div>
                 </div>
                 <div class="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat explicabo saepe rerum! Est nam modi ex illum earum dolorum, expedita nulla sint molestias numquam dolorem consequatur totam eveniet fuga sunt, sequi natus hic officia praesentium itaque. Blanditiis consequuntur earum animi, molestiae minima quaerat aliquam ut corporis quibusdam iure placeat optio sit atque voluptas fuga quod corrupti quam! Quidem a tempora consequatur placeat. Reprehenderit debitis illum cumque fugiat aperiam exercitationem corporis illo, impedit accusamus! Nam facere nulla architecto est accusamus asperiores, debitis iure autem sunt consequatur ut mollitia sequi quos sit suscipit aliquid officia labore, eum optio delectus modi quisquam?
                 </div>
                 <div class="bottom">
-                    this is the bottom
+                    <ul class="like"></ul>
+                    <ul class="dislike"></ul>
+                    <ul class="comment"></ul>
+                    <ul class="share"></ul>
                 </div>
             </div>
             <div class="problems">
                 <div class="title">
                     This Is The No 1 Problem In The World
+                    <div class="hash">
+                        #science
+                    </div>
+                    <div class="profileinfo">
+                        <img class="profilephoto" src="images/erennnn.jpg" alt="">
+                        <span class="profilename">Eren Jaeger</span>
+                    </div>
                 </div>
                 <div class="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat explicabo saepe rerum! Est nam modi ex illum earum dolorum, expedita nulla sint molestias numquam dolorem consequatur totam eveniet fuga sunt, sequi natus hic officia praesentium itaque. Blanditiis consequuntur earum animi, molestiae minima quaerat aliquam ut corporis quibusdam iure placeat optio sit atque voluptas fuga quod corrupti quam! Quidem a tempora consequatur placeat. Reprehenderit debitis illum cumque fugiat aperiam exercitationem corporis illo, impedit accusamus! Nam facere nulla architecto est accusamus asperiores, debitis iure autem sunt consequatur ut mollitia sequi quos sit suscipit aliquid officia labore, eum optio delectus modi quisquam?
                 </div>
                 <div class="bottom">
-                    this is the bottom
+                    <ul class="like"></ul>
+                    <ul class="dislike"></ul>
+                    <ul class="comment"></ul>
+                    <ul class="share"></ul>
                 </div>
             </div>
         <div class="footer" id="footer">
-            this is the footer
+            <p>Explore the sea of unknown</p>
+
+            Here you can post any problem statement that you think exists in the world
+            and if you happen to know the solution to the problems posted.. Voila!!
         </div>
         </div>
         
@@ -74,7 +108,7 @@
         window.onscroll = function() {myFunction()};
         
         function myFunction() {
-          if (document.documentElement.scrollTop > 90) {
+          if (document.documentElement.scrollTop > 160) {
             document.getElementById("myP").className = "header-alt";
           } else {
             document.getElementById("myP").className = "header";

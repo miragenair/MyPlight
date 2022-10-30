@@ -6,6 +6,12 @@
     /* padding-top: 6vh; */
 }
 
+body{
+    /* background-color: #fff2c1; */
+    background-image: url("images/BGF3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .image{
     /* position: fixed; */
     width: 101%;
@@ -16,10 +22,25 @@
 
 }
 
+/* .main{ */
+    /* border:#3278a5 2px solid;
+    background-color: #3278a5; */
+/* } */
+
 .main{
     z-index: 1;
     position: relative;
+    /* background-color: #fff2c1; */
     /* border: 2px solid red; */
+
+
+
+    /* background-image: url("images/mainbg.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    
+    object-fit: contain;
     height: 100vh;
     display: flex;
     margin: auto;
@@ -37,6 +58,11 @@
     margin: auto;
     width: 50%;
     /* border: 2px solid black; */
+    /* color: rgb(255, 250, 197); */
+    /* background-color: #ffffd6; */
+    background-color: hsl(199, 86%, 89%);
+    background-color: #164860;
+    /* color: black; */
     color: white;
     font-family: 'Barlow', sans-serif;
     margin-top: 15vh;
@@ -45,8 +71,8 @@
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     /* background-color: #d6edf0;
     background-image: linear-gradient(160deg, #d6edf0 0%, #87dddd 100%); */
-    background-color: #94c8d6;
-    background-image: linear-gradient(135deg, #94c8d6 30%, #3278a5 98%);
+    /* background-color: #94c8d6; */
+    /* background-image: linear-gradient(135deg, #94c8d6 30%, #3278a5 98%); */
 
 
 }
@@ -58,8 +84,8 @@
     height: auto;
     border-top-left-radius: 2vh;
     border-top-right-radius: 2vh;
-    background-color: #fffced;
-    background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%);
+    background-color: #ffffc2;
+    /* background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%); */
 
     /* margin: 5vh 0vh; */
     padding: 3vh;
@@ -68,18 +94,57 @@
     text-align: inherit;
     font-family: 'Raleway', sans-serif;
     font-size: 6vh;
-    color: #FFD301;
+    /* color: #46c5ff; */
+    /* color: #007ab4; */
+    color : #164860;
+    /* background-color: #FFD301; */
+    background-color: white;
+    /* background-color: hsl(199, 86%, 89%); */
+
+    /* background-color: rgb(212, 246, 255); */
+    /* background-color: #14475f; */
+}
+
+.profileinfo{
+    cursor: pointer;
+    /* border: 2px solid blue; */
+    background-color: rgb(199 41 22);
+    display: flex;
+    height: 12vh;
+    justify-content: left;
+    width: 50%;
+    border-radius: 6vh;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.profilephoto{
+    padding: 1vh;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+
+.profilename{
+    font-size: 3vh;
+    padding: 4vh;
+    /* color: rgb(255, 84, 58); */
+    /* border: 2px solid red; */
+    color: white;
 }
 
 .bottom{
     text-align: center;
-    font-size: 3vh;
+    font-size: 2vh;
     height: auto;
     border-bottom-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    background-color: #fffced;
-    background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%);
-    height: 5vh;
+    /* background-color: #fffced; */
+    /* background-color: #ffffd6; */
+    background-color: white;
+    /* background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%); */
+    height: 7vh;
     /* margin: 5vh 0vh; */
     /* padding: 3vh; */
     /* margin-bottom: 0%; */
@@ -88,6 +153,20 @@
     /* font-size: 6vh; */
     color: #FFD301;
     /* margin-bottom: 5vh; */
+    display: flex;
+    justify-content: right;
+}
+
+.bottom ul{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    padding: 1vh;
+    padding-right: 2vh;
+    
+    margin-top: 1vh;
+    /* padding-bottom: 1vh; */
+    justify-content: center;
+    /* text-align: center; */
 }
 
 .content{
@@ -106,7 +185,106 @@
 .footer{
     /* border: 2px solid black; */
     padding: 30vh;
-    background-color: #eef6f8;
+    /* background-color: #eef6f8; */
+    background-color: #14475f;;
     color: #85a9b4;
     text-align: center;
+}
+
+.hash{
+    text-align: left;
+    padding: 1vh;
+    font-size: 3vh;
+    /* font-family: 'Barlow', sans-serif; */
+    /* height: auto; */
+    /* border-bottom-left-radius: 2vh; */
+    /* border-bottom-right-radius: 2vh; */
+    /* background-color: #fffced; */
+    /* background-color: #ffffd6; */
+    /* background-color: white; */
+    /* background-image: linear-gradient(135deg, #fffced 0%, #ffea9b 100%); */
+    /* height: 7vh; */
+    /* margin: 5vh 0vh; */
+    /* padding: 3vh; */
+    /* margin-bottom: 0%; */
+    /* text-align: center; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-size: 6vh; */
+    color: #FFD301;
+    /* margin-bottom: 5vh; */
+    /* display: flex; */
+    /* justify-content: right; */
+}
+
+.like{
+    
+    /* border: 2px solid red; */
+    background-image: url("images/check\ \(5\).png");
+    height: 3vh;
+    width: 3vh;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    background-position: center;
+}
+
+.like:hover{
+    background-image: url("images/check\ \(6\).png");
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.dislike{
+    /* border: 2px solid red; */
+    background-image: url("images/multiply\ \(1\).png");
+    height: 3vh;
+    width: 3vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .2s;
+
+}
+
+.dislike:hover{
+    background-image: url("images/multiply.png");
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+    
+}
+
+.share{
+    /* border: 2px solid red; */
+    background-image: url("images/sharing\ \(1\).png");
+    height: 3vh;
+    width: 3vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .2s;
+
+}
+
+.share:hover{
+    background-image: url("images/sharing.png");
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.comment{
+    /* border: 2px solid red; */
+    background-image: url("images/comments\ \(1\).png");
+    height: 3vh;
+    width: 3vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .2s;
+
+}
+
+.comment:hover{
+    background-image: url("images/comments.png");
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
 }

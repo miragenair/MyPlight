@@ -1,0 +1,17 @@
+body{
+
+        /* background-color: #fff2c1; */
+        background-image: url("images/BGF3.png");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+}
+
+.image{
+    background-image: url("images/erennnn.jpg");
+    height: 10vh;
+    width: 10vh;
+}
+
+.info{
+    margin-top: 15vh;
+}
